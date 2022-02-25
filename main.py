@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np
-import matplotlib.pyplot as plt
 from equations import interest_equation
 
 u_optimal = st.sidebar.number_input("Optimal utilization rate",0,100,80)
